@@ -1,0 +1,140 @@
+
+
+a.mapHandler {
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 13px;
+    height: 50px;
+    width: 20px;
+    color: #fff;
+    display: none;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.no-touch a.mapHandler:hover {
+    background-color: transparent;
+}
+
+
+
+#mapView {
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+#mapView.min {
+    width: 0%;
+}
+.mapPlaceholder {
+    text-align: center;
+    width: 100%;
+    padding-top: 100px;
+    float: left;
+    overflow: hidden;
+}
+#mapView.min .mapPlaceholder {
+    display: none;
+}
+.mapPlaceholder span {
+    font-size: 16px;
+    line-height: 17px;
+    width: 20px;
+    vertical-align: middle;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+}
+.infoW {
+    font-family: 'open_sansregular', sans-serif, Arial;
+    color: #333;
+    padding: 0 1px;
+}
+.propImg {
+    position: relative;
+}
+.propImg img {
+    width: 200px;
+    height: 120px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.propBg {
+    position: absolute;
+    z-index: 2;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.7))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=0 ); /* IE6-9 */
+}
+.propType {
+    background-color: #eab134;
+    font-size: 10px;
+    line-height: 11px;
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 2px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-transform: uppercase;
+    z-index: 3;
+}
+.paWrapper {
+    padding: 10px 10px 0 10px;
+}
+.propPrice {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    z-index: 3;
+}
+.propTitle {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.propAddress {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #999;
+    font-size: 11px;
+    line-height: 11px;
+}
+.propRating {
+    padding: 2px 0 5px 10px;
+}
+.propRating span {
+    color: #eab134;
+    padding-right: 2px;
+    display: inline-block;
+    font-size: 12px;
+}
+ul.propFeat {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px 0 10px;
+}
+ul.propFeat li {
+    float: left;
+    margin-right: 15px;
+    font-size: 11px;
+    line-height: 11px;
+}
+ul.propFeat li span {
+    color: #999;
+}
+
+
